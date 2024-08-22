@@ -22,8 +22,6 @@
 
 #include "FrameDrawer.h"
 #include "MapDrawer.h"
-#include "Tracking.h"
-#include "System.h"
 #include "Settings.h"
 
 #include <mutex>

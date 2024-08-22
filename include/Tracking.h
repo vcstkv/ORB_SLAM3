@@ -23,7 +23,6 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/features2d/features2d.hpp>
 
-#include "Viewer.h"
 #include "FrameDrawer.h"
 #include "Atlas.h"
 #include "LocalMapping.h"
@@ -33,14 +32,12 @@
 #include "KeyFrameDatabase.h"
 #include "ORBextractor.h"
 #include "MapDrawer.h"
-#include "System.h"
 #include "ImuTypes.h"
 #include "Settings.h"
 
 #include "GeometricCamera.h"
 
 #include <mutex>
-#include <unordered_set>
 
 namespace ORB_SLAM3
 {

@@ -23,6 +23,8 @@
 #include "Optimizer.h"
 #include "Converter.h"
 #include "GeometricTools.h"
+#include "System.h"
+#include "Tracking.h"
 
 #include<mutex>
 #include<chrono>
